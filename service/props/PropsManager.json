@@ -1,0 +1,101 @@
+{
+   "sport": {
+      "nba": {
+        "regular": {
+          "cumulative-player-stats": {
+            "season-name": {
+              "required": true,
+              "value": "2017-2018-regular",
+              "examples": [
+                "2017-2018-regular",
+                "2017-2018-postseason"
+              ]
+            },
+            "team": {
+              "required": false,
+              "value": "?team=cleveland-cavaliers",
+              "examples": [
+                "?team=cle",
+                "?team=cleveland-cavaliers",
+                "?team=cleveland-cavaliers,golden-state-warriors"
+              ]
+            },
+            "player": {
+              "required": false,
+              "value": "?player=lebron-james",
+              "examples": [
+                "?team=james",
+                "?player=lebron-james",
+                "?player=lebron-james,kevin-love"
+              ]
+            },
+            "position": {
+              "required": false,
+              "value": "",
+              "examples": [
+                "?position=sf",
+                "?position=pf,c"
+              ]
+            },
+            "country": {
+              "required": false,
+              "value": "",
+              "examples": [
+                "?country=usa"
+              ]
+            },
+            "playerstats": {
+              "required": false,
+              "value": "?playerstats=plus-minus",
+              "examples": [
+                "?playerstats=plus-minus",
+                "?playerstats=plus-minus,3PntPct-Made"
+              ]
+            },
+            "sort": {
+              "required": false,
+              "value": "",
+              "examples": [
+                "?sort=player.lastname",
+                "?sort=player.age",
+                "?sort=player.birthplace",
+                "?sort=player.birthdate",
+                "?sort=player.height",
+                "?sort=player.weight",
+                "?sort=player.position",
+                "?sort=player.injury",
+                "?sort=player.team",
+                "?sort=player.number",
+                "?sort=player.stats.plus-minus"
+              ]
+            },
+            "offset": {
+              "required": false,
+              "value": "",
+              "examples": [
+                "?offset=0",
+                "?offset=1",
+                "?offset=2"
+              ]
+            },
+            "limit": {
+              "required": false,
+              "value": "",
+              "examples": [
+                "?limit=0",
+                "?limit=1",
+                "?limit=2"
+              ]
+            },
+            "force": {
+              "require": false,
+              "value": false
+            }
+          }
+        },
+        "postseason": {
+
+        }
+      }
+   }
+}

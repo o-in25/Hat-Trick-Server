@@ -1,0 +1,784 @@
+[
+  {
+    "activeplayers": {
+      "lastUpdatedOn": "2016-01-07 9:10:21 PM",
+      "playerentry": [
+        {
+          "player": {
+            "ID": "9232",
+            "LastName": "Harden",
+            "FirstName": "James",
+            "JerseyNumber": "13",
+            "Position": "SG",
+            "Height": "6'5\"",
+            "Weight": "220",
+            "BirthDate": "1989-08-26",
+            "Age": "27",
+            "BirthCity": "Parsons, KS",
+            "BirthCountry": "USA",
+            "IsRookie": "false",
+            "HighSchool": "New Germany",
+            "College": "Notre Dame",
+            "Twitter": "@shill93",
+            "rosterStatus": "ASSIGNED_ROSTER",
+            "handedness": {
+              "Shoots": "L"
+            },
+            "draft": {
+              "Year": "2015",
+              "team": {
+                "ID": "109",
+                "City": "Houston",
+                "Name": "Rockets",
+                "Abbreviation": "HOU"
+              },
+              "Round": "3",
+              "RoundPick": "15",
+              "OverallPick": "76"
+            },
+            "currentContractYear": {
+              "SeasonStartYear": 2015,
+              "BaseSalary": 100000000,
+              "MinorsSalary": 100000,
+              "SigningBonus": 1000000,
+              "OtherBonuses": 500000,
+              "CapHit": 1500000,
+              "FullNoTradeClause": false,
+              "ModifiedNoTradeClause": false,
+              "NoMovementClause": false,
+              "overallContract": {
+                "signingTeam": {
+                  "ID": "109",
+                  "City": "Houston",
+                  "Name": "Rockets",
+                  "Abbreviation": "HOU"
+                },
+                "SignedOn": "2013-05-01",
+                "TotalYears": 3,
+                "TotalSalary": 5000000,
+                "TotalBonuses": 2000000,
+                "ExpiryStatus": "UFA",
+                "AnnualAverageSalary": 1500000
+              }
+            },
+            "officialImageSrc": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201583.png",
+            "externalMapping": {
+              "Source": "NBA.com",
+              "ID": "2543847"
+            }
+          },
+          "team": {
+            "ID": "109",
+            "City": "Houston",
+            "Name": "Rockets",
+            "Abbreviation": "HOU"
+          }
+        }
+      ]
+    }
+  },
+  {
+  "divisionteamstandings": {
+    "lastUpdatedOn": "2016-12-19 12:32:56 AM",
+    "division": [
+      {
+        "@name": "Eastern/Central",
+        "teamentry": [
+          {
+            "team": {
+              "ID": "88",
+              "City": "Detroit",
+              "Name": "Pistons",
+              "Abbreviation": "DET"
+            },
+            "rank": "1",
+            "stats": {
+              "GamesPlayed": {
+                "@abbreviation": "G",
+                "#text": "1"
+              },
+              "Fg2PtAtt": {
+                "@category": "Field Goals",
+                "@abbreviation": "2PA",
+                "#text": "60"
+              },
+              "Fg2PtAttPerGame": {
+                "@category": "Field Goals",
+                "@abbreviation": "2PA/G",
+                "#text": "60.0"
+              },
+              "Fg2PtMade": {
+                "@category": "Field Goals",
+                "@abbreviation": "2PM",
+                "#text": "31"
+              },
+              "Fg2PtMadePerGame": {
+                "@category": "Field Goals",
+                "@abbreviation": "2PM/G",
+                "#text": "31.0"
+              },
+              "Fg2PtPct": {
+                "@category": "Field Goals",
+                "@abbreviation": "2P%",
+                "#text": "51.7"
+              },
+              "Fg3PtAtt": {
+                "@category": "Field Goals",
+                "@abbreviation": "3PA",
+                "#text": "23"
+              },
+              "Fg3PtAttPerGame": {
+                "@category": "Field Goals",
+                "@abbreviation": "3PA/G",
+                "#text": "23.0"
+              },
+              "Fg3PtMade": {
+                "@category": "Field Goals",
+                "@abbreviation": "3PM",
+                "#text": "3"
+              },
+              "Fg3PtMadePerGame": {
+                "@category": "Field Goals",
+                "@abbreviation": "3PM/G",
+                "#text": "3.0"
+              },
+              "Fg3PtPct": {
+                "@category": "Field Goals",
+                "@abbreviation": "3P%",
+                "#text": "13.0"
+              },
+              "FgAtt": {
+                "@category": "Field Goals",
+                "@abbreviation": "FGA",
+                "#text": "83"
+              },
+              "FgAttPerGame": {
+                "@category": "Field Goals",
+                "@abbreviation": "FGA/G",
+                "#text": "83.0"
+              },
+              "FgMade": {
+                "@category": "Field Goals",
+                "@abbreviation": "FGM",
+                "#text": "34"
+              },
+              "FgMadePerGame": {
+                "@category": "Field Goals",
+                "@abbreviation": "FGM/G",
+                "#text": "34.0"
+              },
+              "FgPct": {
+                "@category": "Field Goals",
+                "@abbreviation": "FG%",
+                "#text": "41.0"
+              },
+              "FtAtt": {
+                "@category": "Free Throws",
+                "@abbreviation": "FTA",
+                "#text": "13"
+              },
+              "FtAttPerGame": {
+                "@category": "Free Throws",
+                "@abbreviation": "FTA/G",
+                "#text": "13.0"
+              },
+              "FtMade": {
+                "@category": "Free Throws",
+                "@abbreviation": "FTM",
+                "#text": "11"
+              },
+              "FtMadePerGame": {
+                "@category": "Free Throws",
+                "@abbreviation": "FTM/G",
+                "#text": "11.0"
+              },
+              "FtPct": {
+                "@category": "Free Throws",
+                "@abbreviation": "FT%",
+                "#text": "84.6"
+              },
+              "OffReb": {
+                "@category": "Rebounds",
+                "@abbreviation": "OREB",
+                "#text": "13"
+              },
+              "OffRebPerGame": {
+                "@category": "Rebounds",
+                "@abbreviation": "OREB/G",
+                "#text": "13.0"
+              },
+              "DefReb": {
+                "@category": "Rebounds",
+                "@abbreviation": "DREB",
+                "#text": "23"
+              },
+              "DefRebPerGame": {
+                "@category": "Rebounds",
+                "@abbreviation": "DREB/G",
+                "#text": "23.0"
+              },
+              "Reb": {
+                "@category": "Rebounds",
+                "@abbreviation": "REB",
+                "#text": "36"
+              },
+              "RebPerGame": {
+                "@category": "Rebounds",
+                "@abbreviation": "REB/G",
+                "#text": "36.0"
+              },
+              "Ast": {
+                "@category": "Offense",
+                "@abbreviation": "AST",
+                "#text": "19"
+              },
+              "AstPerGame": {
+                "@category": "Offense",
+                "@abbreviation": "AST/G",
+                "#text": "19.0"
+              },
+              "Pts": {
+                "@category": "Offense",
+                "@abbreviation": "PTS",
+                "#text": "82"
+              },
+              "PtsPerGame": {
+                "@category": "Offense",
+                "@abbreviation": "PTS/G",
+                "#text": "82.0"
+              },
+              "Tov": {
+                "@category": "Defense",
+                "@abbreviation": "TOV",
+                "#text": "11"
+              },
+              "TovPerGame": {
+                "@category": "Defense",
+                "@abbreviation": "TOV/G",
+                "#text": "11.0"
+              },
+              "Stl": {
+                "@category": "Defense",
+                "@abbreviation": "STL",
+                "#text": "8"
+              },
+              "StlPerGame": {
+                "@category": "Defense",
+                "@abbreviation": "STL/G",
+                "#text": "8.0"
+              },
+              "Blk": {
+                "@category": "Defense",
+                "@abbreviation": "BS",
+                "#text": "3"
+              },
+              "BlkPerGame": {
+                "@category": "Defense",
+                "@abbreviation": "BS/G",
+                "#text": "3.0"
+              },
+              "BlkAgainst": {
+                "@category": "Defense",
+                "@abbreviation": "BA",
+                "#text": "5"
+              },
+              "BlkAgainstPerGame": {
+                "@category": "Defense",
+                "@abbreviation": "BA/G",
+                "#text": "5.0"
+              },
+              "PtsAgainst": {
+                "@category": "Defense",
+                "@abbreviation": "PTSA",
+                "#text": "113"
+              },
+              "PtsAgainstPerGame": {
+                "@category": "Defense",
+                "@abbreviation": "PTSA/G",
+                "#text": "113.0"
+              },
+              "Fouls": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "F",
+                "#text": "8"
+              },
+              "FoulsPerGame": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "F/G",
+                "#text": "8.0"
+              },
+              "FoulsDrawn": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "FD",
+                "#text": "13"
+              },
+              "FoulsDrawnPerGame": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "FD/G",
+                "#text": "13.0"
+              },
+              "FoulPers": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "PF",
+                "#text": "8"
+              },
+              "FoulPersPerGame": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "PF/G",
+                "#text": "8.0"
+              },
+              "FoulPersDrawn": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "PFD",
+                "#text": "13"
+              },
+              "FoulPersDrawnPerGame": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "PFD/G",
+                "#text": "13.0"
+              },
+              "FoulTech": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "TF",
+                "#text": "0"
+              },
+              "FoulTechPerGame": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "TF/G",
+                "#text": "0.0"
+              },
+              "FoulTechDrawn": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "TFD",
+                "#text": "0"
+              },
+              "FoulTechDrawnPerGame": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "TFD/G",
+                "#text": "0.0"
+              },
+              "FoulFlag1": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "FF1",
+                "#text": "0"
+              },
+              "FoulFlag1PerGame": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "FF1/G",
+                "#text": "0.0"
+              },
+              "FoulFlag1Drawn": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "FF1D",
+                "#text": "0"
+              },
+              "FoulFlag1DrawnPerGame": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "FF1D/G",
+                "#text": "0.0"
+              },
+              "FoulFlag2": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "FF2",
+                "#text": "0"
+              },
+              "FoulFlag2PerGame": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "FF2/G",
+                "#text": "0.0"
+              },
+              "FoulFlag2Drawn": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "FF2D",
+                "#text": "0"
+              },
+              "FoulFlag2DrawnPerGame": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "FF2D/G",
+                "#text": "0.0"
+              },
+              "Ejections": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "EJE",
+                "#text": "0"
+              },
+              "PlusMinus": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "+/-",
+                "#text": "-31"
+              },
+              "PlusMinusPerGame": {
+                "@category": "Miscellaneous",
+                "@abbreviation": "+/-/G",
+                "#text": "-31.0"
+              },
+              "Wins": {
+                "@category": "Standings",
+                "@abbreviation": "W",
+                "#text": "0"
+              },
+              "Losses": {
+                "@category": "Standings",
+                "@abbreviation": "L",
+                "#text": "1"
+              },
+              "WinPct": {
+                "@category": "Standings",
+                "@abbreviation": "Win %",
+                "#text": "0.000"
+              },
+              "GB": {
+                "@category": "Standings",
+                "@abbreviation": "GB",
+                "#text": "0.0"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+  {"dailyplayerstats": {
+    "lastUpdatedOn": "2016-12-19 12:32:56 AM",
+    "playerstatsentry": [
+      {
+        "player": {
+          "ID": "9158",
+          "LastName": "James",
+          "FirstName": "LeBron",
+          "JerseyNumber": "23",
+          "Position": "SF"
+        },
+        "team": {
+          "ID": "86",
+          "City": "Cleveland",
+          "Name": "Cavaliers",
+          "Abbreviation": "CLE"
+        },
+        "stats": {
+          "GamesPlayed": {
+            "@abbreviation": "GP",
+            "#text": "27"
+          },
+          "Fg2PtAtt": {
+            "@category": "Field Goals",
+            "@abbreviation": "2PA",
+            "#text": "338"
+          },
+          "Fg2PtAttPerGame": {
+            "@category": "Field Goals",
+            "@abbreviation": "2PA/G",
+            "#text": "12.5"
+          },
+          "Fg2PtMade": {
+            "@category": "Field Goals",
+            "@abbreviation": "2PM",
+            "#text": "190"
+          },
+          "Fg2PtMadePerGame": {
+            "@category": "Field Goals",
+            "@abbreviation": "2PM/G",
+            "#text": "7.0"
+          },
+          "Fg2PtPct": {
+            "@category": "Field Goals",
+            "@abbreviation": "2P%",
+            "#text": "56.2"
+          },
+          "Fg3PtAtt": {
+            "@category": "Field Goals",
+            "@abbreviation": "3PA",
+            "#text": "121"
+          },
+          "Fg3PtAttPerGame": {
+            "@category": "Field Goals",
+            "@abbreviation": "3PA/G",
+            "#text": "4.5"
+          },
+          "Fg3PtMade": {
+            "@category": "Field Goals",
+            "@abbreviation": "3PM",
+            "#text": "46"
+          },
+          "Fg3PtMadePerGame": {
+            "@category": "Field Goals",
+            "@abbreviation": "3PM/G",
+            "#text": "1.7"
+          },
+          "Fg3PtPct": {
+            "@category": "Field Goals",
+            "@abbreviation": "3P%",
+            "#text": "38.0"
+          },
+          "FgAtt": {
+            "@category": "Field Goals",
+            "@abbreviation": "FGA",
+            "#text": "459"
+          },
+          "FgAttPerGame": {
+            "@category": "Field Goals",
+            "@abbreviation": "FGA/G",
+            "#text": "17.0"
+          },
+          "FgMade": {
+            "@category": "Field Goals",
+            "@abbreviation": "FGM",
+            "#text": "236"
+          },
+          "FgMadePerGame": {
+            "@category": "Field Goals",
+            "@abbreviation": "FGM/G",
+            "#text": "8.7"
+          },
+          "FgPct": {
+            "@category": "Field Goals",
+            "@abbreviation": "FG%",
+            "#text": "51.4"
+          },
+          "FtAtt": {
+            "@category": "Free Throws",
+            "@abbreviation": "FTA",
+            "#text": "173"
+          },
+          "FtAttPerGame": {
+            "@category": "Free Throws",
+            "@abbreviation": "FTA/G",
+            "#text": "6.4"
+          },
+          "FtMade": {
+            "@category": "Free Throws",
+            "@abbreviation": "FTM",
+            "#text": "120"
+          },
+          "FtMadePerGame": {
+            "@category": "Free Throws",
+            "@abbreviation": "FTM/G",
+            "#text": "4.4"
+          },
+          "FtPct": {
+            "@category": "Free Throws",
+            "@abbreviation": "FT%",
+            "#text": "69.4"
+          },
+          "OffReb": {
+            "@category": "Rebounds",
+            "@abbreviation": "OREB",
+            "#text": "31"
+          },
+          "OffRebPerGame": {
+            "@category": "Rebounds",
+            "@abbreviation": "OREB/G",
+            "#text": "1.1"
+          },
+          "DefReb": {
+            "@category": "Rebounds",
+            "@abbreviation": "DREB",
+            "#text": "165"
+          },
+          "DefRebPerGame": {
+            "@category": "Rebounds",
+            "@abbreviation": "DREB/G",
+            "#text": "6.1"
+          },
+          "Reb": {
+            "@category": "Rebounds",
+            "@abbreviation": "REB",
+            "#text": "196"
+          },
+          "RebPerGame": {
+            "@category": "Rebounds",
+            "@abbreviation": "REB/G",
+            "#text": "7.3"
+          },
+          "Ast": {
+            "@category": "Offense",
+            "@abbreviation": "AST",
+            "#text": "220"
+          },
+          "AstPerGame": {
+            "@category": "Offense",
+            "@abbreviation": "AST/G",
+            "#text": "8.1"
+          },
+          "Pts": {
+            "@category": "Offense",
+            "@abbreviation": "PTS",
+            "#text": "638"
+          },
+          "PtsPerGame": {
+            "@category": "Offense",
+            "@abbreviation": "PTS/G",
+            "#text": "23.6"
+          },
+          "Tov": {
+            "@category": "Defense",
+            "@abbreviation": "TOV",
+            "#text": "96"
+          },
+          "TovPerGame": {
+            "@category": "Defense",
+            "@abbreviation": "TOV/G",
+            "#text": "3.6"
+          },
+          "Stl": {
+            "@category": "Defense",
+            "@abbreviation": "STL",
+            "#text": "33"
+          },
+          "StlPerGame": {
+            "@category": "Defense",
+            "@abbreviation": "STL/G",
+            "#text": "1.2"
+          },
+          "Blk": {
+            "@category": "Defense",
+            "@abbreviation": "BS",
+            "#text": "12"
+          },
+          "BlkPerGame": {
+            "@category": "Defense",
+            "@abbreviation": "BS/G",
+            "#text": "0.4"
+          },
+          "BlkAgainst": {
+            "@category": "Defense",
+            "@abbreviation": "BA",
+            "#text": "19"
+          },
+          "BlkAgainstPerGame": {
+            "@category": "Defense",
+            "@abbreviation": "BA/G",
+            "#text": "0.7"
+          },
+          "Fouls": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "F",
+            "#text": "177"
+          },
+          "FoulsPerGame": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "F/G",
+            "#text": "6.6"
+          },
+          "FoulsDrawn": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "FD",
+            "#text": "0"
+          },
+          "FoulsDrawnPerGame": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "FD/G",
+            "#text": "0.0"
+          },
+          "FoulPers": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "PF",
+            "#text": "42"
+          },
+          "FoulPersPerGame": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "PF/G",
+            "#text": "1.6"
+          },
+          "FoulPersDrawn": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "PFD",
+            "#text": "134"
+          },
+          "FoulPersDrawnPerGame": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "PFD/G",
+            "#text": "5.0"
+          },
+          "FoulTech": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "TF",
+            "#text": "1"
+          },
+          "FoulTechPerGame": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "TF/G",
+            "#text": "0.0"
+          },
+          "FoulTechDrawn": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "TFD",
+            "#text": "0"
+          },
+          "FoulTechDrawnPerGame": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "TFD/G",
+            "#text": "0.0"
+          },
+          "FoulFlag1": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "FF1",
+            "#text": "0"
+          },
+          "FoulFlag1PerGame": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "FF1/G",
+            "#text": "0.0"
+          },
+          "FoulFlag1Drawn": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "FF1D",
+            "#text": "0"
+          },
+          "FoulFlag1DrawnPerGame": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "FF1D/G",
+            "#text": "0.0"
+          },
+          "FoulFlag2": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "FF2",
+            "#text": "0"
+          },
+          "FoulFlag2PerGame": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "FF2/G",
+            "#text": "0.0"
+          },
+          "FoulFlag2Drawn": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "FF2D",
+            "#text": "0"
+          },
+          "FoulFlag2DrawnPerGame": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "FF2D/G",
+            "#text": "0.0"
+          },
+          "Ejections": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "EJE",
+            "#text": "0"
+          },
+          "PlusMinus": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "+/-",
+            "#text": "257"
+          },
+          "PlusMinusPerGame": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "+/-/G",
+            "#text": "9.5"
+          },
+          "MinSeconds": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "MIN",
+            "#text": "55720"
+          },
+          "MinSecondsPerGame": {
+            "@category": "Miscellaneous",
+            "@abbreviation": "MIN/G",
+            "#text": "2063.7"
+          }
+        }
+      }
+    ]
+  }
+}
+]
