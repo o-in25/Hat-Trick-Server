@@ -24,6 +24,20 @@ getActivePlayers: function(requestParams, callback) {
 </code></pre>
 <h3>Flexibility That Scales</h3>
 <p>The Hat Trick Server takes advantage of MongoDB's NoSQL schema achitecture, which allows for seemless integration with MySportsFeeds. As MySportsFeeds API's changes, Hat Trick's schemas naturally follow.</p>
+<pre><code>https://api.mysportsfeeds.com/v1.2/pull/nba/{season-name}/cumulative_player_stats.{format}</code></pre>
+<pre>
+<code>
+team={list-of-teams} (filter teams)
+player={list-of-players} (filter players)
+position={list-of-positions} (filter player positions)
+country={list-of-countries} (filter player countries of birth)
+playerstats={list-of-player-stats} (filter player stats)
+sort={sort-specifier} (sort the feed's content)
+offset={offset-specifier} (filter results starting at the given offset)
+limit={limit-specifier} (limit the maximum # of results)
+force={force-if-not-modified} (force content)
+</code>
+</pre>
 <pre>
 <code>
  let PlayerSchema = {
