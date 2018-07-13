@@ -1,7 +1,7 @@
 <h1 align="center">Hat Trick Server</h1>
 The Hat Trick server is the content server for the (soon-to-be) Hat Trick sports statistics application. This application is both a reqrite and an upgrade to the SportsStats application. Hat Trick the MySportsFeeds API to gather sports statistics about professional athletes. The server uses MySportsFeeds's RESTful API architecture to deliver content such as a player's free throw percentage, where a player played college ball, and more.
-<h4>Courtesy of the MySportsFeeds API</h4>
-<a href="https://www.mysportsfeeds.com/data-feeds/api-docs/">Click here for API documentation</a>
+<h4 align="center">Courtesy of the MySportsFeeds API</h4>
+<a align="center" href="https://www.mysportsfeeds.com/data-feeds/api-docs/">Click here for API documentation</a>
 <p align="center">
 <img src="https://pbs.twimg.com/profile_images/779390458892001280/aFHAsc24_400x400.jpg">
 </p>
