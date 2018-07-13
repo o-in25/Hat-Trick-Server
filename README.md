@@ -26,6 +26,7 @@ getActivePlayers: function(requestParams, callback) {
 <p>The Hat Trick Server takes advantage of MongoDB's NoSQL schema achitecture, which allows for seemless integration with MySportsFeeds. As MySportsFeeds API's changes, Hat Trick's schemas naturally follow.</p>
 <pre>
 <code>
+ let PlayerSchema = {
           player: {
               ID: String,
                   LastName: String,
