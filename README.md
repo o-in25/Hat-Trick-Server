@@ -378,3 +378,34 @@ force={force-if-not-modified} (force content)
       };
 </code>
 </pre>
+<h3>CRUD Services. Managed.</h3>
+<p>Need not worry about building GET requests. The Hat Trick Server handles building requests. All you need to do, is supply your request parameters - or let the Hat Trick Server supply them for you.</p>
+<pre>
+<code>
+buildRequest: function (sport, season, statType, requestParameters) {
+        // ex: buildRequest('nba', '2017-2018', 'plus-minus', {'team':'cleveland-cavaliers, 'position':'pg'}
+        // take a object
+        // with 2 arrays containing the
+        // request and its value
+        let res = '';
+        let count = 0;
+        for(let prop in requestParameters) {
+            // will remove the first & on the first param
+            if(count == 0) {// if its the first one
+                res += requestParameters.hasOwnProperty(prop)?  prop + '=' + requestParameters[prop] : '';
+                count++;
+            } else {// if its not the first one
+                res += requestParameters.hasOwnProperty(prop)?  '&' + prop + '=' + requestParameters[prop] : '';
+            }
+        }
+        return {
+            hostname: 'api.mysportsfeeds.com',
+            path: '/v1.2/pull/' + sport + '/' + season + '/' + statType + '.json?' + res,
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json', "Authorization": 'Basic ' + btoa('user' + ':' + 'password')
+            }
+        }
+    }
+</code>
+</pre>
