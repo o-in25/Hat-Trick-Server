@@ -4,6 +4,7 @@ Uses the MySportsFeeds API to gather sports statistics about professional athlet
   <img / src="https://pbs.twimg.com/profile_images/779390458892001280/aFHAsc24_400x400.jpg">
 </p>
 <h2>Rich API</h2>
+<p>The MySportsFeeds RESTful APIs provides full support for getting stats such as active players or cumulative player stats. The Hat Trick API server consumes these HTTP requests and provides a rich and compact service for retrieving them. </p>
 <pre>
 <code>    
 getActivePlayers: function(requestParams, callback) {
