@@ -18,7 +18,7 @@ module.exports = {
         return service.makeRequest(requestData).then((data) => {
             let obj = JSON.parse(data);
             /** player stats entry is of type array and returns information about the player **/
-            callback(obj.activeplayers.playerstatsentry);
+            callback(obj.activeplayers.playerentry);
         }).catch((err) => {
             console.log('Request failed...');
             throw err;
