@@ -20,6 +20,7 @@ module.exports = {
     // }
     makeRequest: function(request) {
         // return a promuse
+        console.log('HTTP Request Path: ' + request.path);
         return new Promise((resolve, reject) => {
             // the stream will begin as a string
             let str = '';
@@ -50,7 +51,7 @@ module.exports = {
 
                 // return the promise
                 res.on('end', (end) => { // end
-                    console.log('Ended...');
+                    console.log('Stream closed...');
                     resolve(str, end);
                 })
             })

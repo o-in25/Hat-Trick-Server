@@ -2,7 +2,8 @@ let mongoose = require('mongoose');
 module.exports = {
     PlayerSchema: new function() {
         let Schema = mongoose.Schema;
-        let PlayerProfileSchema = new Schema({"player": {
+        let PlayerProfileSchema = {
+            player: {
                 ID: String,
                 LastName: String,
                 FirstName: String,
@@ -71,7 +72,7 @@ module.exports = {
                 Name: String,
                 Abbreviation: String
             }
-        });
+        };
         return new Schema(PlayerProfileSchema);
     }
 };

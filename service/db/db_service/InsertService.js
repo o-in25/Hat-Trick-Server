@@ -8,13 +8,6 @@ module.exports = {
     // inserts cumulative player stats from the MySportsFeed API
     // this will take in an object that has a list of teams
     // ex: {'team':'cleveland'}
-
-    /**
-     * Inserts cumulative player stats by team
-     * @param params
-     * @param callback
-     * @private
-     */
     _InsertCumulativePlayerStatsByTeam:  function(params, callback) {
         DbService.connectToDb().then((db) => {
              CumulativePlayerStatsApi.getCumulativePlayerStats(params, function(res) {

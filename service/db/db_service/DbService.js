@@ -3,7 +3,8 @@
 let mongoose = require('mongoose');
 let insertService = require('../db_service/InsertService');
 //Set up default mongoose connection
-mongoose.connect('mongodb://127.0.0.1/test');
+let url = 'mongodb://127.0.0.1/test';
+mongoose.connect(url);
 // Get Mongoose to use the global promise library
 mongoose.Promise = global.Promise;
 let db = mongoose.connection;
@@ -12,11 +13,11 @@ module.exports = {
   connectToDb: function() {
       return new Promise((resolve, reject) => {
           db.on('open', function () {
-              console.log('Connection successful...');
+              console.log('Connection to ' + url + ' successful...');
               resolve(db);
           });
           db.on('error', function () {
-              console.log('Error inserting into database...');
+              console.log('Error connecting to database...');
               console.error.bind(console, 'MongoDb connection error: ');
               reject(db);
           })

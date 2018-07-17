@@ -10,17 +10,19 @@ module.exports = {
         return season;
     },
     getCumulativePlayerStats: function(requestParams, callback) {
+        console.log('Getting stats...');
         // build the request
         let requestData = manager.buildRequest('nba', season, 'cumulative_player_stats', requestParams);
         // make the request
-        return service.makeRequest(requestData).then((data) => {
+        service.makeRequest(requestData).then((data) => {
             let obj = JSON.parse(tokenParser.parseTokens(data));
             console.log(obj);
             console.log('Retrieved stat...');
-            /** player stats entry is of type array and returns information about the player **/
+            /** player stats eyntry is of type array and returns information about the player **/
             callback(obj.cumulativeplayerstats.playerstatsentry);
         }).catch((err) => {
             console.log('Request failed...');
+            console.log(err);
             throw err;
         });
     }
