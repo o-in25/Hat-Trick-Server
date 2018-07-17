@@ -42,7 +42,7 @@ force={force-if-not-modified} (force content)
 </pre>
 <pre>
 <code>
- let PlayerSchema = {
+ let SchemaManager = {
           player: {
               ID: String,
                   LastName: String,

@@ -1,7 +1,6 @@
 // the DbService will communicate with the database and will
 // provide operations for crud functions
 let mongoose = require('mongoose');
-let insertService = require('../db_service/InsertService');
 //Set up default mongoose connection
 let url = 'mongodb://127.0.0.1/test';
 mongoose.connect(url);
