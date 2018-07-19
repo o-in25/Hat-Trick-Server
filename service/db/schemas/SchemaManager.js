@@ -4,344 +4,173 @@
 // in their implementation
 // this are simple pojos and are used in
 // conjunction with mongoose.Schema
+let mongoose = require('mongoose');
+let Schema = mongoose.Schema;
+    let StatsSchema = {
+        PlayerID: Schema.Types.Mixed,
+        LastName: Schema.Types.Mixed,
+        FirstName: Schema.Types.Mixed,
+        JerseyNumber: Schema.Types.Mixed,
+        Position: Schema.Types.Mixed,
+        CityID: Schema.Types.Mixed,
+        City: Schema.Types.Mixed,
+        Name: Schema.Types.Mixed,
+        Abbreviation: Schema.Types.Mixed,
+        GamesPlayed: Schema.Types.Mixed,
+        Fg2PtAtt: Schema.Types.Mixed,
+        Fg2PtAttPerGame: Schema.Types.Mixed,
+        Fg2PtMade: Schema.Types.Mixed,
+        Fg2PtMadePerGame: Schema.Types.Mixed,
+        Fg2PtPct: Schema.Types.Mixed,
+        Fg3PtAtt: Schema.Types.Mixed,
+        Fg3PtAttPerGame: Schema.Types.Mixed,
+        Fg3PtMade: Schema.Types.Mixed,
+        Fg3PtMadePerGame: Schema.Types.Mixed,
+        Fg3PtPct: Schema.Types.Mixed,
+        FgAtt: Schema.Types.Mixed,
+        FgAttPerGame: Schema.Types.Mixed,
+        FgMade: Schema.Types.Mixed,
+        FgMadePerGame: Schema.Types.Mixed,
+        FgPct: Schema.Types.Mixed,
+        FtAtt: Schema.Types.Mixed,
+        FtAttPerGame: Schema.Types.Mixed,
+        FtMade: Schema.Types.Mixed,
+        FtMadePerGame: Schema.Types.Mixed,
+        FtPct: Schema.Types.Mixed,
+        OffReb: Schema.Types.Mixed,
+        OffRebPerGame: Schema.Types.Mixed,
+        DefReb: Schema.Types.Mixed,
+        DefRebPerGame: Schema.Types.Mixed,
+        Reb: Schema.Types.Mixed,
+        RebPerGame: Schema.Types.Mixed,
+        Ast: Schema.Types.Mixed,
+        AstPerGame: Schema.Types.Mixed,
+        Pts: Schema.Types.Mixed,
+        PtsPerGame: Schema.Types.Mixed,
+        Tov: Schema.Types.Mixed,
+        TovPerGame: Schema.Types.Mixed,
+        Stl: Schema.Types.Mixed,
+        StlPerGame: Schema.Types.Mixed,
+        Blk: Schema.Types.Mixed,
+        BlkPerGame: Schema.Types.Mixed,
+        BlkAgainst: Schema.Types.Mixed,
+        BlkAgainstPerGame: Schema.Types.Mixed,
+        Fouls: Schema.Types.Mixed,
+        FoulsPerGame: Schema.Types.Mixed,
+        FoulsDrawn: Schema.Types.Mixed,
+        FoulsDrawnPerGame: Schema.Types.Mixed,
+        FoulPers: Schema.Types.Mixed,
+        FoulPersPerGame: Schema.Types.Mixed,
+        FoulPersDrawn: Schema.Types.Mixed,
+        FoulPersDrawnPerGame: Schema.Types.Mixed,
+        FoulTech: Schema.Types.Mixed,
+        FoulTechPerGame: Schema.Types.Mixed,
+        FoulTechDrawn: Schema.Types.Mixed,
+        FoulTechDrawnPerGame: Schema.Types.Mixed,
+        FoulFlag1: Schema.Types.Mixed,
+        FoulFlag1PerGame: Schema.Types.Mixed,
+        FoulFlag1Drawn: Schema.Types.Mixed,
+        FoulFlag1DrawnPerGame: Schema.Types.Mixed,
+        FoulFlag2: Schema.Types.Mixed,
+        FoulFlag2PerGame: Schema.Types.Mixed,
+        FoulFlag2Drawn: Schema.Types.Mixed,
+        FoulFlag2DrawnPerGame: Schema.Types.Mixed,
+        Ejections: Schema.Types.Mixed,
+        PlusMinus: Schema.Types.Mixed,
+        PlusMinusPerGame: Schema.Types.Mixed,
+        MinSeconds: Schema.Types.Mixed,
+        MinSecondsPerGame: Schema.Types.Mixed
+    
+    };
+
+
+
 
 /**
  * Player stats schema
  */
 let PlayerSchema = {
     player: {
-        ID: String,
-        LastName: String,
-        FirstName: String,
-        JerseyNumber: String,
-        Position: String
+        ID: Schema.Types.Mixed,
+        LastName: Schema.Types.Mixed,
+        FirstName: Schema.Types.Mixed,
+        JerseyNumber: Schema.Types.Mixed,
+        Position: Schema.Types.Mixed
     },
     team: {
-        ID: String,
-        City: String,
-        Name: String,
-        Abbreviation: String
+        ID: Schema.Types.Mixed,
+        City: Schema.Types.Mixed,
+        Name: Schema.Types.Mixed,
+        Abbreviation: Schema.Types.Mixed
     },
     stats: {
         GamesPlayed: {
-            abbreviation: String,
-            text: String
+            abbreviation: Schema.Types.Mixed,
+            text: Schema.Types.Mixed
         },
-        Fg2PtAtt: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Fg2PtAttPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Fg2PtMade: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Fg2PtMadePerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Fg2PtPct: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Fg3PtAtt: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Fg3PtAttPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Fg3PtMade: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Fg3PtMadePerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Fg3PtPct: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FgAtt: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FgAttPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FgMade: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FgMadePerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FgPct: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FtAtt: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FtAttPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FtMade: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FtMadePerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FtPct: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        OffReb: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        OffRebPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        DefReb: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        DefRebPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Reb: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        RebPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Ast: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        AstPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Pts: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        PtsPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Tov: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        TovPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Stl: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        StlPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Blk: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        BlkPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        BlkAgainst: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        BlkAgainstPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Fouls: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulsPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulsDrawn: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulsDrawnPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulPers: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulPersPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulPersDrawn: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulPersDrawnPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulTech: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulTechPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulTechDrawn: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulTechDrawnPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulFlag1: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulFlag1PerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulFlag1Drawn: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulFlag1DrawnPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulFlag2: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulFlag2PerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulFlag2Drawn: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        FoulFlag2DrawnPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        Ejections: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        PlusMinus: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        PlusMinusPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        MinSeconds: {
-            category: String,
-            abbreviation: String,
-            text: String
-        },
-        MinSecondsPerGame: {
-            category: String,
-            abbreviation: String,
-            text: String
-        }
+        Fg2PtAtt: Schema.Types.Mixed,
+        Fg2PtAttPerGame: Schema.Types.Mixed,
+        Fg2PtMade: Schema.Types.Mixed,
+        Fg2PtMadePerGame: Schema.Types.Mixed,
+        Fg2PtPct: Schema.Types.Mixed,
+        Fg3PtAtt: Schema.Types.Mixed,
+        Fg3PtAttPerGame: Schema.Types.Mixed,
+        Fg3PtMade: Schema.Types.Mixed,
+        Fg3PtMadePerGame: Schema.Types.Mixed,
+        Fg3PtPct: Schema.Types.Mixed,
+        FgAtt: Schema.Types.Mixed,
+        FgAttPerGame: Schema.Types.Mixed,
+        FgMade: Schema.Types.Mixed,
+        FgMadePerGame: Schema.Types.Mixed,
+        FgPct: Schema.Types.Mixed,
+        FtAtt: Schema.Types.Mixed,
+        FtAttPerGame: Schema.Types.Mixed,
+        FtMade: Schema.Types.Mixed,
+        FtMadePerGame: Schema.Types.Mixed,
+        FtPct: Schema.Types.Mixed,
+        OffReb: Schema.Types.Mixed,
+        OffRebPerGame: Schema.Types.Mixed,
+        DefReb: Schema.Types.Mixed,
+        DefRebPerGame: Schema.Types.Mixed,
+        Reb: Schema.Types.Mixed,
+        RebPerGame: Schema.Types.Mixed,
+        Ast: Schema.Types.Mixed,
+        AstPerGame: Schema.Types.Mixed,
+        Pts: Schema.Types.Mixed,
+        PtsPerGame: Schema.Types.Mixed,
+        Tov: Schema.Types.Mixed,
+        TovPerGame: Schema.Types.Mixed,
+        Stl: Schema.Types.Mixed,
+        StlPerGame: Schema.Types.Mixed,
+        Blk: Schema.Types.Mixed,
+        BlkPerGame: Schema.Types.Mixed,
+        BlkAgainst: Schema.Types.Mixed,
+        BlkAgainstPerGame: Schema.Types.Mixed,
+        Fouls: Schema.Types.Mixed,
+        FoulsPerGame: Schema.Types.Mixed,
+        FoulsDrawn: Schema.Types.Mixed,
+        FoulsDrawnPerGame: Schema.Types.Mixed,
+        FoulPers: Schema.Types.Mixed,
+        FoulPersPerGame: Schema.Types.Mixed,
+        FoulPersDrawn: Schema.Types.Mixed,
+        FoulPersDrawnPerGame: Schema.Types.Mixed,
+        FoulTech: Schema.Types.Mixed,
+        FoulTechPerGame: Schema.Types.Mixed,
+        FoulTechDrawn: Schema.Types.Mixed,
+        FoulTechDrawnPerGame: Schema.Types.Mixed,
+        FoulFlag1: Schema.Types.Mixed,
+        FoulFlag1PerGame: Schema.Types.Mixed,
+        FoulFlag1Drawn: Schema.Types.Mixed,
+        FoulFlag1DrawnPerGame: Schema.Types.Mixed,
+        FoulFlag2: Schema.Types.Mixed,
+        FoulFlag2PerGame: Schema.Types.Mixed,
+        FoulFlag2Drawn: Schema.Types.Mixed,
+        FoulFlag2DrawnPerGame: Schema.Types.Mixed,
+        Ejections: Schema.Types.Mixed,
+        PlusMinus: Schema.Types.Mixed,
+        PlusMinusPerGame: Schema.Types.Mixed,
+        MinSeconds: Schema.Types.Mixed,
+        MinSecondsPerGame: Schema.Types.Mixed
     }
 };
 
@@ -350,77 +179,78 @@ let PlayerSchema = {
  */
 let PlayerProfileSchema = {
     player: {
-        ID: String,
-        LastName: String,
-        FirstName: String,
-        JerseyNumber: String,
-        Position: String,
-        Height: String,
-        Weight: String,
-        BirthDate: String,
-        Age: String,
-        BirthCity: String,
-        BirthCountry: String,
-        IsRookie: String,
-        HighSchool: String,
-        College: String,
-        Twitter: String,
-        rosterStatus: String,
+        ID: Schema.Types.Mixed,
+        LastName: Schema.Types.Mixed,
+        FirstName: Schema.Types.Mixed,
+        JerseyNumber: Schema.Types.Mixed,
+        Position: Schema.Types.Mixed,
+        Height: Schema.Types.Mixed,
+        Weight: Schema.Types.Mixed,
+        BirthDate: Schema.Types.Mixed,
+        Age: Schema.Types.Mixed,
+        BirthCity: Schema.Types.Mixed,
+        BirthCountry: Schema.Types.Mixed,
+        IsRookie: Schema.Types.Mixed,
+        HighSchool: Schema.Types.Mixed,
+        College: Schema.Types.Mixed,
+        Twitter: Schema.Types.Mixed,
+        rosterStatus: Schema.Types.Mixed,
         handedness: {
-            Shoots: String
+            Shoots: Schema.Types.Mixed
         },
         draft: {
-            Year: String,
+            Year: Schema.Types.Mixed,
             team: {
-                ID: String,
-                City: String,
-                Name: String,
-                Abbreviation: String
+                ID: Schema.Types.Mixed,
+                City: Schema.Types.Mixed,
+                Name: Schema.Types.Mixed,
+                Abbreviation: Schema.Types.Mixed
             },
-            Round: String,
-            RoundPick: String,
-            OverallPick: String
+            Round: Schema.Types.Mixed,
+            RoundPick: Schema.Types.Mixed,
+            OverallPick: Schema.Types.Mixed
         },
         currentContractYear: {
-            SeasonStartYear: String,
-            BaseSalary: String,
-            MinorsSalary: String,
-            SigningBonus: String,
-            OtherBonuses: String,
-            CapHit: String,
-            FullNoTradeClause: String,
-            ModifiedNoTradeClause: String,
-            NoMovementClause: String,
+            SeasonStartYear: Schema.Types.Mixed,
+            BaseSalary: Schema.Types.Mixed,
+            MinorsSalary: Schema.Types.Mixed,
+            SigningBonus: Schema.Types.Mixed,
+            OtherBonuses: Schema.Types.Mixed,
+            CapHit: Schema.Types.Mixed,
+            FullNoTradeClause: Schema.Types.Mixed,
+            ModifiedNoTradeClause: Schema.Types.Mixed,
+            NoMovementClause: Schema.Types.Mixed,
             overallContract: {
                 signingTeam: {
-                    ID: String,
-                    City: String,
-                    Name: String,
-                    Abbreviation: String
+                    ID: Schema.Types.Mixed,
+                    City: Schema.Types.Mixed,
+                    Name: Schema.Types.Mixed,
+                    Abbreviation: Schema.Types.Mixed
                 },
-                SignedOn: String,
-                TotalYears: String,
-                TotalSalary: String,
-                TotalBonuses: String,
-                ExpiryStatus: String,
-                AnnualAverageSalary: String
+                SignedOn: Schema.Types.Mixed,
+                TotalYears: Schema.Types.Mixed,
+                TotalSalary: Schema.Types.Mixed,
+                TotalBonuses: Schema.Types.Mixed,
+                ExpiryStatus: Schema.Types.Mixed,
+                AnnualAverageSalary: Schema.Types.Mixed
             }
         },
-        officialImageSrc: String,
+        officialImageSrc: Schema.Types.Mixed,
         externalMapping: {
-            Source: String,
-            ID: String
+            Source: Schema.Types.Mixed,
+            ID: Schema.Types.Mixed
         }
     },
     team: {
-        ID: String,
-        City: String,
-        Name: String,
-        Abbreviation: String
+        ID: Schema.Types.Mixed,
+        City: Schema.Types.Mixed,
+        Name: Schema.Types.Mixed,
+        Abbreviation: Schema.Types.Mixed
     }
 };
 
 module.exports = {
+    StatsSchema: StatsSchema,
     PlayerSchema: PlayerSchema,
     PlayerProfileSchema: PlayerProfileSchema
 };
