@@ -16,7 +16,7 @@ module.exports = {
     // ex:
     // { hostname: '...', path: '...',
     // 'headers: {
-    // 'Content-Type': 'application/json', 'Authorization': 'Basic ' + btoa('eoin' + ':' + 'Password'
+    // 'Content-Type': 'application/json', 'Authorization': 'Basic ' + btoa('eoin' + ':' + 'Password')
     // }
     makeRequest: function(request) {
         // return a promuse
@@ -27,18 +27,16 @@ module.exports = {
             https.get(request, (res) => {
                 // init the request
                 console.log('Building Request...');
-
-
                 // failed
                 res.on('error', (err) => { // error
                     console.log('HTTP Request Failed... ');
                     reject(err);
                 });
-
                 // got the url
                 // parsing...
                 res.on('data', (stream) => { // success
                     let reader = new BufferedReader(stream);
+                    // TODO FIND A BETTER WAY TO DO THIS
                     try {
                         while(true) {
                             // since buffer cant read end throw err to break
@@ -48,7 +46,6 @@ module.exports = {
                         // end of loop
                     }
                 });
-
                 // return the promise
                 res.on('end', (end) => { // end
                     console.log('Stream closed...');

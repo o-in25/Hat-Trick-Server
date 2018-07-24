@@ -21,5 +21,6 @@ module.exports = {
               reject(db);
           })
       });
-  }
+  },
+  db: db
 };

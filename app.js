@@ -6,7 +6,8 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
+let cumulativePlayerStatsRouter = require('./routes/feed/cumulativePlayerStats');
+let DbService = require('./service/db/db_service/DbService');
 var app = express();
 
 // view engine setup
@@ -19,9 +20,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// pages
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
-
+app.use('/there', usersRouter);
+app.use('/api', cumulativePlayerStatsRouter);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
@@ -37,5 +39,6 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
 
 module.exports = app;
