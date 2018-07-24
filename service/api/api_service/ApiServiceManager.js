@@ -26,7 +26,7 @@ module.exports = {
             path: '/v1.2/pull/' + sport + '/' + season + '/' + statType + '.json?' + res,
             method: 'GET',
             headers: {
-                'Content-Type': 'application/json', "Authorization": 'Basic ' + btoa('eoin' + ':' + 'Texanol12')
+                'Content-Type': 'application/json', "Authorization": 'Basic ' + btoa('user' + ':' + 'password')
             }
         }
     }
