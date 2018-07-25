@@ -11,8 +11,8 @@
      */
 
     let mongoose = require('mongoose');
-    let ActivePlayersService = require('../db_service/task/CumulativePlayerStatsService');
-    ActivePlayersService._FindCumulativePlayerStats({}, []).then((res) => {
+    let ActivePlayersService = require('../db_service/task/ActivePlayersService');
+    ActivePlayersService._InsertAllActivePlayers({}, []).then((res) => {
         console.log(res);
     }).catch((err) => {
         console.log(err);

@@ -17,50 +17,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cumulativePlayerStats.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/feed/cumulativePlayerStats.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WeightedAverage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/WeightedAverage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatisticsManager.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/logic/nba/StatisticsManager.js">
+      <file leaf-file-name="ActivePlayersService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/db/db_service/task/ActivePlayersService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="316">
+              <caret line="65" column="84" selection-start-line="65" selection-start-column="84" selection-end-line="65" selection-end-column="84" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logic/DataService.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="InsertServiceTests.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/db/db_service_tests/InsertServiceTests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="285">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="SchemaManager.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/db/models/schemas/SchemaManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="255" column="65" selection-start-line="255" selection-start-column="65" selection-end-line="255" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DailyPlayerStatsService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/db/db_service/task/DailyPlayerStatsService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
@@ -68,36 +67,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="322">
-                <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/www">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -140,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service/api/api_service/api_service_tests/nba/CumlativePlayerStatsApiTest.js" />
         <option value="$PROJECT_DIR$/service/props/Properties.json" />
         <option value="$PROJECT_DIR$/service/model/CumulativePlaterStatsModel.js" />
         <option value="$PROJECT_DIR$/service/db/db_service/insert.js" />
@@ -161,7 +129,6 @@
         <option value="$PROJECT_DIR$/service/db/model/CumulativePlaterStatsModel.js" />
         <option value="$PROJECT_DIR$/service/db/schemas/PlayerSchema.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/service/api/api_service/ApiServiceManager.js" />
         <option value="$PROJECT_DIR$/service/db/DbManager.js" />
         <option value="$PROJECT_DIR$/service/api/api_service/ApiService.js" />
         <option value="$PROJECT_DIR$/service/api/api_service/nba/CumulativePlayerStatsApi.js" />
@@ -176,7 +143,6 @@
         <option value="$PROJECT_DIR$/service/db/db_service/nba/ActivePlayersService.js" />
         <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/routes/cumulativePlayerStats.js" />
-        <option value="$PROJECT_DIR$/service/db/db_service_tests/InsertServiceTests.js" />
         <option value="$PROJECT_DIR$/service/db/db_service/DbService.js" />
         <option value="$PROJECT_DIR$/service/db/db_service/nba/CumulativePlayerStatsService.js" />
         <option value="$PROJECT_DIR$/service/db/schemas/SchemaManager.js" />
@@ -191,6 +157,9 @@
         <option value="$PROJECT_DIR$/routes/feed/cumulativePlayerStats.js" />
         <option value="$PROJECT_DIR$/tests/WeightedAverage.js" />
         <option value="$PROJECT_DIR$/logic/nba/StatisticsManager.js" />
+        <option value="$PROJECT_DIR$/service/api/api_service/ApiServiceManager.js" />
+        <option value="$PROJECT_DIR$/service/db/db_service_tests/InsertServiceTests.js" />
+        <option value="$PROJECT_DIR$/service/db/models/schemas/SchemaManager.js" />
       </list>
     </option>
   </component>
@@ -210,9 +179,8 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="49" />
-    <option name="y" value="56" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
   </component>
@@ -222,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,7 +212,71 @@
             <path>
               <item name="install" type="b2602c69:ProjectViewProjectNode" />
               <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="install" type="b2602c69:ProjectViewProjectNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="feed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="install" type="b2602c69:ProjectViewProjectNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="install" type="b2602c69:ProjectViewProjectNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="install" type="b2602c69:ProjectViewProjectNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="api_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="install" type="b2602c69:ProjectViewProjectNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="api_service" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="install" type="b2602c69:ProjectViewProjectNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="api_service" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="install" type="b2602c69:ProjectViewProjectNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="api_service" type="462c0819:PsiDirectoryNode" />
+              <item name="nba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="install" type="b2602c69:ProjectViewProjectNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="api_service_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="install" type="b2602c69:ProjectViewProjectNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="api_service_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="nba" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="install" type="b2602c69:ProjectViewProjectNode" />
@@ -256,7 +289,22 @@
               <item name="install" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="db_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="install" type="b2602c69:ProjectViewProjectNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="db_service" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="install" type="b2602c69:ProjectViewProjectNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="db_service_tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="install" type="b2602c69:ProjectViewProjectNode" />
@@ -267,7 +315,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,6 +325,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -301,7 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.cumulativePlayerStats.js">
+  <component name="RunManager" selected="Node.js.InsertServiceTests.js">
     <configuration name="ApiService.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ApiService.js" working-dir="$PROJECT_DIR$/service/api/api_service" />
     <configuration name="ConferenceTeamStandings.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ConferenceTeamStandings.js" working-dir="$PROJECT_DIR$/service/api/api_service/nba" />
     <configuration name="CumlativePlayerStatsApiTest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/service/api/api_service_tests/nba/CumlativePlayerStatsApiTest.js" working-dir="$PROJECT_DIR$/service/api/api_service_tests/nba" />
@@ -316,8 +364,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.cumulativePlayerStats.js" />
         <item itemvalue="Node.js.InsertServiceTests.js" />
+        <item itemvalue="Node.js.cumulativePlayerStats.js" />
         <item itemvalue="Node.js.CumlativePlayerStatsApiTest.js" />
         <item itemvalue="Node.js.ApiService.js" />
         <item itemvalue="Node.js.ConferenceTeamStandings.js" />
@@ -338,26 +386,28 @@
       <workItem from="1531360961234" duration="14698000" />
       <workItem from="1531594510884" duration="43174000" />
       <workItem from="1531879953910" duration="16182000" />
-      <workItem from="1532278879078" duration="24872000" />
+      <workItem from="1532278879078" duration="27003000" />
+      <workItem from="1532487102151" duration="14000" />
+      <workItem from="1532487161759" duration="593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132263000" />
+    <option name="totallyTimeSpent" value="135001000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.25139666" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49964765" visible="true" weight="0.4217877" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.42307693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49964765" visible="true" weight="0.4167832" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49964765" weight="0.4167832" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39615384" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -373,17 +423,17 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.42318437" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3282123" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39664805" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49964765" visible="true" weight="0.41922006" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.25139666" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -523,40 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/api/api_service_tests/nba/CumlativePlayerStatsApiTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/DailyPlayerStatsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiServiceManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="110" selection-start-line="28" selection-start-column="110" selection-end-line="28" selection-end-column="110" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/api/api_service/nba/PlayoffTeamStandingsApi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -571,30 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/nba.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="72" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/db_service_tests/InsertServiceTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/db_service/DbService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/api/api_service/nba/OverallTeamStandingsApi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -602,37 +594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/models/PlayerStatsModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/CumulativePlayerStatsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/db_service/DbManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/models/schemas/SchemaManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/models/PlayerStatsModel.js" />
     <entry file="file://$PROJECT_DIR$/service/db/models/CumulativePlayerStatsModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -672,13 +634,7 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/connect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/connect.js" />
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -696,13 +652,6 @@
     <entry file="file://$PROJECT_DIR$/logic/DataService.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/feed/cumulativePlayerStats.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -710,17 +659,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/WeightedAverage.js">
+    <entry file="file://$PROJECT_DIR$/logic/nba/StatisticsManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="300">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logic/nba/StatisticsManager.js">
+    <entry file="file://$PROJECT_DIR$/service/db/db_service/DbManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/CumulativePlayerStatsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiServiceManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="110" selection-start-line="28" selection-start-column="110" selection-end-line="28" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/api/api_service_tests/nba/CumlativePlayerStatsApiTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/feed/cumulativePlayerStats.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/db_service/DbService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/WeightedAverage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/DailyPlayerStatsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/ActivePlayersService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="65" column="84" selection-start-line="65" selection-start-column="84" selection-end-line="65" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/db_service_tests/InsertServiceTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/models/schemas/SchemaManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="255" column="65" selection-start-line="255" selection-start-column="65" selection-end-line="255" selection-end-column="65" />
         </state>
       </provider>
     </entry>

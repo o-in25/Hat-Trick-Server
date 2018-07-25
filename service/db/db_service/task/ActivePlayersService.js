@@ -3,7 +3,7 @@ let ActivePlayersStatsApi = require('../../../api/api_service/nba/ActivePlayersA
 let DbService = require('../../db_service/DbService');
 let SchemaManager = require('../../models/schemas/SchemaManager');
 let Schema = mongoose.Schema;
-let collection = 'MySportsFeedExtranet';
+let collection = 'MySportsFeedExtranetStats';
 module.exports = {
     /**
      * Inserts cumulative player stats by team
@@ -59,9 +59,9 @@ module.exports = {
                     // our response, we have to
                     // build an array for the response
                     let players = [];
+                    console.log(res[34])
                     for(var i = 0; i < res.length; i++) {
                         let player = res[i];
-                        console.log(player.player);
                         // TODO: build the dao with a manager and not a literal
                         players.push(SchemaManager.PlayerProfileManager.PlayerProfileDao(player));
                     }
