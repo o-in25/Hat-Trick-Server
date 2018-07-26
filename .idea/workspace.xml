@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PointGuardRatingsService.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PointGuardRatingsService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/db/db_service/task/PointGuardRatingsService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="426">
+              <caret line="30" column="103" selection-start-line="30" selection-start-column="103" selection-end-line="30" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiServiceManager.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ApiServiceManager.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiServiceManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="435">
+              <caret line="29" column="97" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -98,7 +98,7 @@
       <file leaf-file-name="ApiService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
+            <state relative-caret-position="488">
               <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -210,10 +210,10 @@
         <option value="$PROJECT_DIR$/service/db/logic/Player.js" />
         <option value="$PROJECT_DIR$/service/db/db_service/task/logic/InsertPointGuardPlayerRatings.js" />
         <option value="$PROJECT_DIR$/service/db/db_service/task/DailyPlayerStatsService.js" />
-        <option value="$PROJECT_DIR$/service/api/api_service/ApiServiceManager.js" />
         <option value="$PROJECT_DIR$/service/db/db_service_tests/InsertServiceTests.js" />
         <option value="$PROJECT_DIR$/service/db/db_service/task/CumulativePlayerStatsService.js" />
         <option value="$PROJECT_DIR$/service/db/db_service/task/PointGuardRatingsService.js" />
+        <option value="$PROJECT_DIR$/service/api/api_service/ApiServiceManager.js" />
       </list>
     </option>
   </component>
@@ -318,6 +318,21 @@
               <item name="install" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="install" type="b2602c69:ProjectViewProjectNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="nba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="install" type="b2602c69:ProjectViewProjectNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -413,18 +428,18 @@
       <workItem from="1532278879078" duration="27003000" />
       <workItem from="1532487102151" duration="14000" />
       <workItem from="1532487161759" duration="12809000" />
-      <workItem from="1532642422206" duration="5109000" />
+      <workItem from="1532642422206" duration="6710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152326000" />
+    <option name="totallyTimeSpent" value="153927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20084566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20084566" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.25139666" />
@@ -432,9 +447,9 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.42937064" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49964765" weight="0.4161932" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49964765" weight="0.41538462" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3958042" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3958042" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -494,7 +509,7 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="51" />
+      <option name="time" value="60" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -758,26 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiServiceManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/db/db_service/DbService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -811,8 +806,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/db/db_service/task/PointGuardRatingsService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="426">
+          <caret line="30" column="103" selection-start-line="30" selection-start-column="103" selection-end-line="30" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiServiceManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="97" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
