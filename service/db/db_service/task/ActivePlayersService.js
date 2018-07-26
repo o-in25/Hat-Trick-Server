@@ -3,7 +3,7 @@ let ActivePlayersStatsApi = require('../../../api/api_service/nba/ActivePlayersA
 let DbService = require('../../db_service/DbService');
 let SchemaManager = require('../../models/schemas/SchemaManager');
 let Schema = mongoose.Schema;
-let collection = 'MySportsFeedExtranetStats';
+let collection = 'BIN';
 module.exports = {
     /**
      * Inserts cumulative player stats by team
@@ -51,7 +51,7 @@ module.exports = {
                 ActivePlayersStatsApi.getAllActivePlayers({}, function(res) {
                     // create a new model
                     // with the appropriate schema
-                    let Model = mongoose.model(collection, new Schema(SchemaManager.PlayerStatsManager.PlayerStatsSchema));
+                    let Model = mongoose.model(collection, new Schema(SchemaManager.PlayerProfileManager.PlayerProfileSchema));
                     // in order to save the model into the db w
                     // an instance of it must be made
                     console.log('Queuing Entries...');
@@ -59,7 +59,6 @@ module.exports = {
                     // our response, we have to
                     // build an array for the response
                     let players = [];
-                    console.log(res[34])
                     for(var i = 0; i < res.length; i++) {
                         let player = res[i];
                         // TODO: build the dao with a manager and not a literal
@@ -83,32 +82,4 @@ module.exports = {
             });
         })
     },
-    _FindActivePlayer: function(params, arr) {
-        return new Promise((resolve, reject) => {
-            DbService.connectToDb().then((db) => {
-                let fields = '';
-                for(let i = 0; i < arr.length; i++) {
-                    fields += arr[i] + ' ';
-                }
-                let Model = mongoose.model(collection, new Schema(SchemaManager.PlayerProfileManager.PlayerProfileSchema));
-                Model.find(params, arr, (function(err, success) {
-                    if(err) {
-                        console.log('Failed to find...');
-                        console.log(err);
-                        db.close();
-                        reject(err);
-                    } else {
-                        db.close();
-                        if(success.length == 0) {
-                            console.log('NOT FOUND...');
-                            reject(success);
-                        } else {
-                            console.log('Entry successfully found...');
-                            resolve(success);
-                        }
-                    }
-                }));
-            });
-        });
-    }
 };

@@ -10,7 +10,7 @@ module.exports = {
     getAllActivePlayers: function(requestParams, callback) {
         console.log('Getting stats...');
         // build the request
-        let requestData = ApiServiceManager.buildRequest('nba', season, 'active_players', requestParams);
+        let requestData = ApiServiceManager.buildRequest('v1.2', 'nba', season, 'active_players', requestParams);
         // make the request
         ApiService.makeRequest(requestData).then((data) => {
             let obj = JSON.parse(TokenParser.parseTokens(data));

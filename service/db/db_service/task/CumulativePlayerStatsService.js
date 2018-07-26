@@ -3,7 +3,7 @@ let CumulativePlayerStatsApi = require('../../../api/api_service/nba/CumulativeP
 let DbService = require('../../db_service/DbService');
 let SchemaManager = require('../../models/schemas/SchemaManager');
 let Schema = mongoose.Schema;
-let collection = 'MySportsFeedExtranet';
+let collection = 'msfdata';
 module.exports = {
     /**
      * Inserts cumulative player stats by team
@@ -90,59 +90,5 @@ module.exports = {
                throw "Unsuccessful connection to database";
            });
        })
-    },
-    _FindCumulativePlayerStats: function(params, arr) {
-        return new Promise((resolve, reject) => {
-           DbService.connectToDb().then((db) => {
-             let fields = '';
-             for(let i = 0; i < arr.length; i++) {
-                 fields += arr[i] + ' ';
-             }
-          //   let Model = mongoose.model(collection, new Schema(SchemaManager.PlayerStatsManager.PlayerStatsSchema));
-             Model.find(params, arr, (function(err, success) {
-                 if(err) {
-                     console.log('Failed to find...');
-                     console.log(err);
-                     db.close();
-                     reject(err);
-                 } else {
-                     db.close();
-                     if(success.length == 0) {
-                         console.log('NOT FOUND...');
-                         reject(success);
-                     } else {
-                         console.log('Entry successfully found...');
-                         resolve(success);
-                     }
-                 }
-             }));
-           });
-        });
-    },
-    _Find: function(db, params, arr) {
-        return new Promise((resolve, reject) => {
-            let fields = '';
-            for(let i = 0; i < arr.length; i++) {
-                fields += arr[i] + ' ';
-            }
-            let Model = mongoose.model(collection, new Schema(SchemaManager.PlayerStatsManager.PlayerStatsSchema));
-            Model.find(params, arr, (function(err, success) {
-                if(err) {
-                    console.log('Failed to find...');
-                    console.log(err);
-                    db.close();
-                    reject(err);
-                } else {
-                    db.close();
-                    if(success.length == 0) {
-                        console.log('NOT FOUND...');
-                        reject(success);
-                    } else {
-                        console.log('Entry successfully found...');
-                        resolve(success);
-                    }
-                }
-            }));
-        })
     }
 };

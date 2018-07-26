@@ -1,6 +1,6 @@
 let mongoose = require('mongoose');
 let DailyPlayerStatsApi = require('../../../api/api_service/nba/DailyPlayerStatsApi');
-let DailyPlayerStatsModel = require('../../model/DailyPlayerStatsModel');
+let DailyPlayerStatsModel = require('../../models/CumulativePlayerStatsModel');
 let DbService = require('../../db_service/DbService');
 module.exports = {
     // inserts cumulative player stats from the MySportsFeed API

@@ -10,7 +10,7 @@ module.exports = {
     getCumulativePlayerStats: function(requestParams, callback) {
         console.log('Getting stats...');
         // build the request
-        let requestData = ApiServiceManager.buildRequest('nba', season, 'cumulative_player_stats', requestParams);
+        let requestData = ApiServiceManager.buildRequest('v1.2', 'nba', season, 'cumulative_player_stats', requestParams);
         // make the request
         ApiService.makeRequest(requestData).then((data) => {
             let obj = JSON.parse(TokenParser.parseTokens(data));

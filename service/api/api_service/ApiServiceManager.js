@@ -3,9 +3,10 @@
 // by building the object that the ApiService will depend on
 
 let btoa = require('btoa');
+
 module.exports = {
     // builds the request object that the ApiService will need
-    buildRequest: function (sport, season, statType, requestParameters) {
+    buildRequest: function (version, sport, season, statType, requestParameters) {
         // ex: buildRequest('nba', '2017-2018', 'plus-minus', {'team':'cleveland-cavaliers, 'position':'pg'}
         // take a object
         // with 2 arrays containing the
@@ -23,10 +24,10 @@ module.exports = {
         }
         return {
             hostname: 'api.mysportsfeeds.com',
-            path: '/v1.2/pull/' + sport + '/' + season + '/' + statType + '.json?' + res,
+            path: '/' + version + '/pull/' + sport + '/' + season + '/' + statType + '.json?' + res,
             method: 'GET',
             headers: {
-                'Content-Type': 'application/json', "Authorization": 'Basic ' + btoa('' + ':' + '')
+                'Content-Type': 'application/json', "Authorization": 'Basic ' + btoa('eoin' + ':' + 'Texanol12')
             }
         }
     }

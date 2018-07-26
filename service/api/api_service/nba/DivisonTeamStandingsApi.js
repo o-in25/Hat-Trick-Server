@@ -12,7 +12,7 @@ module.exports = {
     },
     getDailyPlayerStats: function(requestParams, callback) {
         // build the request
-        let requestData = manager.buildRequest('nba', season, 'daily_player_stats', requestParams);
+        let requestData = manager.buildRequest('v1.2', 'nba', season, 'daily_player_stats', requestParams);
         // make the request
         return service.makeRequest(requestData).then((data) => {
             let obj = JSON.parse(tokenParser.parseTokens(data));
