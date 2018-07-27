@@ -17,29 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CumulativePlayerStatsService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/db/db_service/task/CumulativePlayerStatsService.js">
+      <file leaf-file-name="PointGuardRatingsService.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/db/db_service/task/PointGuardRatingsService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="78">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivePlayersService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/db/db_service/task/ActivePlayersService.js">
+      <file leaf-file-name="FormulaManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/db/logic/nba/FormulaManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertServiceTests.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/db/db_service_tests/InsertServiceTests.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="179">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -47,7 +38,7 @@
       <file leaf-file-name="DbService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/db/db_service/DbService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="353">
               <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -56,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PointGuardRatingsService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/db/db_service/task/PointGuardRatingsService.js">
+      <file leaf-file-name="DbManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/db/db_service/DbManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="30" column="103" selection-start-line="30" selection-start-column="103" selection-end-line="30" selection-end-column="103" />
+            <state>
+              <caret column="46" selection-start-column="46" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -68,8 +59,17 @@
       <file leaf-file-name="ActivePlayersModel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/db/models/ActivePlayersModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="105">
+              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CumulativePlayerStatsModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/db/models/CumulativePlayerStatsModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -77,32 +77,26 @@
       <file leaf-file-name="SchemaManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/db/models/schemas/SchemaManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4050">
-              <caret line="275" column="85" lean-forward="true" selection-start-line="275" selection-start-column="85" selection-end-line="275" selection-end-column="85" />
+            <state relative-caret-position="279">
+              <caret line="303" column="20" selection-start-line="303" selection-start-column="20" selection-end-line="303" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiServiceManager.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiServiceManager.js">
+      <file leaf-file-name="cumulativePlayerStats.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/feed/cumulativePlayerStats.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="97" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="-96">
+              <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiService.js">
+      <file leaf-file-name="PointGuardRatingModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/db/models/PointGuardRatingModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -110,7 +104,7 @@
       <file leaf-file-name="DailyPlayerStatsService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/db/db_service/task/DailyPlayerStatsService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="-53">
               <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
             </state>
           </provider>
@@ -155,6 +149,7 @@
       <replace>player.player.draft != null?</replace>
       <replace>0</replace>
       <replace>null</replace>
+      <replace>!isNaN</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -163,9 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service/api/api_service/middleware/TokenParser.js" />
-        <option value="$PROJECT_DIR$/service/api/api_service/middleware/middleware_tests/TokenParserTests.js" />
-        <option value="$PROJECT_DIR$/service/db/db_service/nba/DailyPlayerStatsService.js" />
         <option value="$PROJECT_DIR$/service/db/model/ActivePlayersModel.js" />
         <option value="$PROJECT_DIR$/service/api/api_service_tests/nba/CumlativePlayerStatsApiTest.js" />
         <option value="$PROJECT_DIR$/service/db/schemas/PlayerProfileSchema.js" />
@@ -198,7 +190,6 @@
         <option value="$PROJECT_DIR$/service/db/models/schemas/ActivePlayersModel.js" />
         <option value="$PROJECT_DIR$/service/db/models/CumulativePlayerStatsModel.js" />
         <option value="$PROJECT_DIR$/service/db/models/ActivePlayersModel.js" />
-        <option value="$PROJECT_DIR$/service/db/models/schemas/SchemaManager.js" />
         <option value="$PROJECT_DIR$/service/db/db_service/task/ActivePlayersService.js" />
         <option value="$PROJECT_DIR$/logic/DataService.js" />
         <option value="$PROJECT_DIR$/env.js" />
@@ -206,14 +197,18 @@
         <option value="$PROJECT_DIR$/service/api/api_service/nba/ActivePlayersApi.js" />
         <option value="$PROJECT_DIR$/service/api/api_service/nba/CumulativePlayerStatsApi.js" />
         <option value="$PROJECT_DIR$/service/api/api_service/nba/DivisonTeamStandingsApi.js" />
-        <option value="$PROJECT_DIR$/service/db/logic/nba/FormulaManager.js" />
         <option value="$PROJECT_DIR$/service/db/logic/Player.js" />
         <option value="$PROJECT_DIR$/service/db/db_service/task/logic/InsertPointGuardPlayerRatings.js" />
         <option value="$PROJECT_DIR$/service/db/db_service/task/DailyPlayerStatsService.js" />
         <option value="$PROJECT_DIR$/service/db/db_service_tests/InsertServiceTests.js" />
         <option value="$PROJECT_DIR$/service/db/db_service/task/CumulativePlayerStatsService.js" />
-        <option value="$PROJECT_DIR$/service/db/db_service/task/PointGuardRatingsService.js" />
         <option value="$PROJECT_DIR$/service/api/api_service/ApiServiceManager.js" />
+        <option value="$PROJECT_DIR$/service/db/logic/DataService.js" />
+        <option value="$PROJECT_DIR$/service/db/models/PointGuardRatingService.js" />
+        <option value="$PROJECT_DIR$/service/db/models/PointGuardRatingModel.js" />
+        <option value="$PROJECT_DIR$/service/db/models/schemas/SchemaManager.js" />
+        <option value="$PROJECT_DIR$/service/db/logic/nba/FormulaManager.js" />
+        <option value="$PROJECT_DIR$/service/db/db_service/task/PointGuardRatingsService.js" />
       </list>
     </option>
   </component>
@@ -428,23 +423,23 @@
       <workItem from="1532278879078" duration="27003000" />
       <workItem from="1532487102151" duration="14000" />
       <workItem from="1532487161759" duration="12809000" />
-      <workItem from="1532642422206" duration="6710000" />
+      <workItem from="1532642422206" duration="14936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153927000" />
+    <option name="totallyTimeSpent" value="162153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20084566" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1987315" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.25139666" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.42937064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49964765" visible="true" weight="0.42937064" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49964765" weight="0.41538462" />
@@ -513,7 +508,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/db/db_service/InsertService.js" />
     <entry file="file://$PROJECT_DIR$/service/props/PropsManager.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -586,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/db_service/DbManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/api/api_service_tests/nba/CumlativePlayerStatsApiTest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -604,13 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="2604" column="2" selection-start-line="2604" selection-start-column="2" selection-end-line="2604" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -630,13 +610,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/api/api_service/middleware/middleware_tests/TokenParserTests.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/feed/cumulativePlayerStats.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -708,28 +681,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/logic/nba/FormulaManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/db/logic/Player.js" />
-    <entry file="file://$PROJECT_DIR$/service/db/models/CumulativePlayerStatsModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="101" selection-start-line="5" selection-start-column="101" selection-end-line="5" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/logic/DataService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/db/db_service/task/logic/InsertPointGuardPlayerRatings.js" />
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -752,65 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/ActivePlayersService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/DailyPlayerStatsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/models/schemas/SchemaManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4050">
-          <caret line="275" column="85" lean-forward="true" selection-start-line="275" selection-start-column="85" selection-end-line="275" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/db_service/DbService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/db_service_tests/InsertServiceTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/CumulativePlayerStatsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/models/ActivePlayersModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/PointGuardRatingsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="30" column="103" selection-start-line="30" selection-start-column="103" selection-end-line="30" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
@@ -821,6 +714,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/logic/DataService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service/api/api_service/ApiServiceManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -828,6 +728,107 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/ActivePlayersService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="76" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/db_service_tests/InsertServiceTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/CumulativePlayerStatsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-878">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4422" column="15" selection-start-line="4422" selection-start-column="15" selection-end-line="4422" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/DailyPlayerStatsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/feed/cumulativePlayerStats.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/models/CumulativePlayerStatsModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/models/ActivePlayersModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/models/schemas/SchemaManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="303" column="20" selection-start-line="303" selection-start-column="20" selection-end-line="303" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/logic/nba/FormulaManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/models/PointGuardRatingModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/db_service/DbService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/db_service/DbManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/db/db_service/task/PointGuardRatingsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
     </entry>

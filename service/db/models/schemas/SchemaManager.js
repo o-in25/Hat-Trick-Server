@@ -169,6 +169,8 @@ let PlayerStatsManager = {
     },
 };
 
+/**************************************************************************************************/
+
 /**
  * Player profile schema
  */
@@ -284,8 +286,30 @@ let PlayerProfileManager = {
     }
 };
 
+
+let PointGuardRatingsManager = {
+  PointGuardRatingSchema: {
+      PlayerID: Number,
+      Fg3PtPct: Number,
+      Fg2PtPct: Number,
+      FtPct: Number,
+      FgAtt: Number,
+      FtAtt: Number,
+      Tov: Number,
+      Ast: Number,
+      PtsPerGame: Number,
+      MinSecondsPerGame: Number,
+      Fg3PtMade: Number,
+      PlusMinus: Number,
+      Rating: Number
+  }
+};
+
+
+
 // return...
 module.exports = {
     PlayerStatsManager: PlayerStatsManager,
-    PlayerProfileManager: PlayerProfileManager
+    PlayerProfileManager: PlayerProfileManager,
+    PointGuardRatingsManager: PointGuardRatingsManager
 };
