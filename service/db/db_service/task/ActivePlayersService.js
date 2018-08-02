@@ -22,7 +22,7 @@ module.exports = {
                     let Model = mongoose.model(collection, new Schema(SchemaManager.PlayerProfileManager.PlayerProfileSchema));
                     // in order to save the model into the db w
                     // an instance of it must be made
-                    console.log('Queuing Entries...');
+                    console.log('Queu ing Entries...');
                     Model.insertMany(res, function(err, success) {
                         if(err) {
                             console.log('Failed to add...');

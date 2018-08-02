@@ -4,9 +4,10 @@ let mongoose = require('mongoose');
 let router = express.Router();
 // the model we are using
 let Model = require('../../service/db/models/CumulativePlayerStatsModel').CumulativePlayerStatsModel('MySportsFeedExtranet');
+let cors = require('cors');
 
 
-router.get('/ptspergame/:ppg', function(req, res, next) {
+router.get('/ptspergame/:ppg', cors(), function(req, res, next) {
     let num = req.params.ppg;
     Model.find({PtsPerGame: {$gt: Number(num)}}, ['LastName', 'FirstName', 'PlayerID', 'PtsPerGame'], function(err, data) {
         res.status(200).send(data);

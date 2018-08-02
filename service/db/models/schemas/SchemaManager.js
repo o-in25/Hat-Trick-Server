@@ -5,6 +5,8 @@
 // this are simple pojos and are used in
 // conjunction with mongoose.Schema
 let mongoose = require('mongoose');
+let weightedAverage = require('weighted-mean');
+let FormulaManager = require('../../logic/nba/FormulaManager');
 let Schema = mongoose.Schema;
 
 /**
@@ -302,7 +304,39 @@ let PointGuardRatingsManager = {
       Fg3PtMade: Number,
       PlusMinus: Number,
       Rating: Number
-  }
+  },
+    PointGuardRatingDao: function(index) {
+      return {
+        PlayerID: !isNaN(index.PlayerID)? index.PlayerID : 0,
+        Fg3PtPct: !isNaN(index.Fg3PtPct)? index.Fg3PtPct : 0,
+        Fg2PtPct: !isNaN(index.Fg2PtPct)? index.Fg2PtPct : 0,
+        FtPct: !isNaN(index.FtPct)? index.FtPct : 0,
+        FgAtt: !isNaN(index.FgAtt)? index.FgAtt : 0,
+        FtAtt: !isNaN(index.FtAtt)? index.FtAtt: 0,
+        Tov: !isNaN(index.Tov)? index.Tov : 0,
+        Ast: !isNaN(index.Ast)? index.Ast : 0,
+        PtsPerGame: !isNaN(index.PtsPerGame)? index.PtsPerGame: 0,
+        MinSecondsPerGame: !isNaN(index.MinSecondsPerGame)? index.MinSecondsPerGame : 0,
+        Fg3PtMade: !isNaN(index.Fg3PtMade)? index.Fg3PtMade : 0,
+        PlusMinus: !isNaN(index.PlusMinus)? index.PlusMinus : 0,
+        Rating: !isNaN(weightedAverage([
+            [15, !isNaN(index.Fg3PtPct)? index.Fg3PtPct : 0],
+            [10, !isNaN(index.Fg2PtPct)? index.Fg2PtPct : 0],
+            [5, !isNaN(index.FtPct)? index.FtPct : 0],
+            [25, !isNaN(FormulaManager.CalaculateFreeThrowRate(index.FtAtt, index.FgAtt))? FormulaManager.CalaculateFreeThrowRate(index.FtAtt, index.FgAtt) : 0],
+            [30, !isNaN(FormulaManager.CalaculateAssistTurnOverRatio(index.Ast, index.Tov))? FormulaManager.CalaculateAssistTurnOverRatio(index.Ast, index.Tov) : 0],
+            [10, !isNaN(FormulaManager.CalculateScoreRate(index.PtsPerGame, index.MinSecondsPerGame))? FormulaManager.CalculateScoreRate(index.PtsPerGame, index.MinSecondsPerGame) : 0],
+            [5, !isNaN(FormulaManager.CalculateEffectiveFieldGoalPercentage(index.Fg3PtMade, index.FgAtt))? FormulaManager.CalculateEffectiveFieldGoalPercentage(index.Fg3PtMade, index.FgAtt) : 0]
+        ]))? weightedAverage([
+            [15, !isNaN(index.Fg3PtPct)? index.Fg3PtPct : 0],
+            [10, !isNaN(index.Fg2PtPct)? index.Fg2PtPct : 0],
+            [5, !isNaN(index.FtPct)? index.FtPct : 0],
+            [25, !isNaN(FormulaManager.CalaculateFreeThrowRate(index.FtAtt, index.FgAtt))? FormulaManager.CalaculateFreeThrowRate(index.FtAtt, index.FgAtt) : 0],
+            [30, !isNaN(FormulaManager.CalaculateAssistTurnOverRatio(index.Ast, index.Tov))? FormulaManager.CalaculateAssistTurnOverRatio(index.Ast, index.Tov) : 0],
+            [10, !isNaN(FormulaManager.CalculateScoreRate(index.PtsPerGame, index.MinSecondsPerGame))? FormulaManager.CalculateScoreRate(index.PtsPerGame, index.MinSecondsPerGame) : 0],
+            [5, !isNaN(FormulaManager.CalculateEffectiveFieldGoalPercentage(index.Fg3PtMade, index.FgAtt))? FormulaManager.CalculateEffectiveFieldGoalPercentage(index.Fg3PtMade, index.FgAtt) : 0]]) : 0
+      }
+    }
 };
 
 

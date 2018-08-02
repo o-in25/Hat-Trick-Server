@@ -3,7 +3,7 @@
          let mongoose = require('mongoose');
      let ActivePlayersService = require('../db_service/task/CumulativePlayerStatsService');
      ActivePlayersService._InsertCumulativePlayerStats().then((succ) => {
-            console.log(succ)
+//           / console.log(succ)
         }).catch((err) => {
 
     });
