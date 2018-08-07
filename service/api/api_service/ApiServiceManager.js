@@ -26,8 +26,9 @@ module.exports = {
             hostname: 'api.mysportsfeeds.com',
             path: '/' + version + '/pull/' + sport + '/' + season + '/' + statType + '.json?' + res,
             method: 'GET',
+            // TODO FIND BETTER WAY TO AUTH HEADER
             headers: {
-                'Content-Type': 'application/json', "Authorization": 'Basic ' + btoa('' + ':' + '')
+                'Content-Type': 'application/json', "Authorization": 'Basic ' + btoa('eoin' + ':' + 'Texanol12')
             }
         }
     }

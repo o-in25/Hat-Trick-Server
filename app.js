@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 let cumulativePlayerStatsRouter = require('./routes/feed/cumulativePlayerStats');
 let pointGuardPlayerRatingsRouter = require('./routes/feed/pointGuardPlayerStats');
+let activePlayersRouter = require('./routes/feed/activePlayers');
 let DbService = require('./service/db/db_service/DbService');
 var app = express();
 
@@ -27,6 +28,7 @@ app.use('/', indexRouter);
 app.use('/there', usersRouter);
 app.use('/api', cumulativePlayerStatsRouter);
 app.use('/api', pointGuardPlayerRatingsRouter);
+app.use('/api', activePlayersRouter)
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
