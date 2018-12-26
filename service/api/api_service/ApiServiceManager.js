@@ -28,7 +28,7 @@ module.exports = {
             method: 'GET',
             // TODO FIND BETTER WAY TO AUTH HEADER
             headers: {
-                'Content-Type': 'application/json', "Authorization": 'Basic ' + btoa('eoin' + ':' + 'Texanol12')
+                'Content-Type': 'application/json', "Authorization": 'Basic ' + btoa('' + ':' + '')
             }
         }
     }
